@@ -38,13 +38,13 @@
 1. Copy the `tf_port` folder to the `%programfiles(x86)%\Steam\steamapps\sourcemods` folder **where _Steam_ is installed**, it won't work otherwise! After that restart Steam.
 2. In Steam go to `Team Fortress 2 1.0.1.8 Port`, right click it and click `Properties`.
 3. In `Launch Options`, paste this line below into the field (change `-w` and `-h` to the resolution of your display, **do not change it ingame**).
-- ```-dxlevel 70 -novid -w 1280 -h 720 -noborder -windowed +r_3dsky 0 +r_WaterDrawReflection 0 +r_WaterDrawRefraction 0 +r_shadows 0 +r_frustumcullworld 0 +r_unloadlightmaps 1 1 +mat_specular 0 +mat_bumpmap 0 +mat_normalmap 0 +mat_parallaxmap 0 +r_staticprop_lod 0```
+- ```-dxlevel 70 -novid -w 1920 -h 1080 -noborder -windowed +r_3dsky 0 +r_WaterDrawReflection 0 +r_WaterDrawRefraction 0 +r_shadows 0 +r_frustumcullworld 0 +r_unloadlightmaps 1 1 +mat_specular 0 +mat_bumpmap 0 +mat_normalmap 0 +mat_parallaxmap 0 +r_staticprop_lod 0```
 
  </details>
 
 
 #### Credits:
 - [BlueAmulet for their Source Engine patches for RTX Remix](https://github.com/BlueAmulet/SourceRTXTweaks)
-- @maksw2 on Discord
+- [maksw2](https://github.com/maksw2) on Discord
 - @umfc on Discord
 - @popo7235 on Discord
